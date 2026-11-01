@@ -32,7 +32,7 @@
     "typecheck": "pnpm --filter @open-design/contracts build && tsc -p tsconfig.json --noEmit && tsc -p tsconfig.tests.json --noEmit"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "@open-design/contracts": "workspace:*",
     "@open-design/platform": "workspace:*",
     "@open-design/sidecar": "workspace:*",
@@ -42,8 +42,8 @@
     "chokidar": "^5.0.0",
     "express": "^4.19.2",
     "jszip": "^3.10.1",
-    "multer": "^2.2.0",
-    "undici": "^7.29.0"
+    "multer": "^2.5.0",
+    "undici": "^7.30.1"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
